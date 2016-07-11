@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F069AF61D33DFDA0085148E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F069AF51D33DFDA0085148E /* AppDelegate.swift */; };
+		2F069AF81D33DFDA0085148E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F069AF71D33DFDA0085148E /* ViewController.swift */; };
+		2F069AFB1D33DFDA0085148E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F069AF91D33DFDA0085148E /* Main.storyboard */; };
+		2F069AFD1D33DFDA0085148E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F069AFC1D33DFDA0085148E /* Assets.xcassets */; };
+		2F069B001D33DFDA0085148E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F069AFE1D33DFDA0085148E /* LaunchScreen.storyboard */; };
+		2F069B0B1D33DFDA0085148E /* pratoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F069B0A1D33DFDA0085148E /* pratoTests.swift */; };
+		2F069B161D33DFDA0085148E /* pratoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F069B151D33DFDA0085148E /* pratoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F069B071D33DFDA0085148E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F069AEA1D33DFDA0085148E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F069AF11D33DFDA0085148E;
+			remoteInfo = prato;
+		};
+		2F069B121D33DFDA0085148E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F069AEA1D33DFDA0085148E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F069AF11D33DFDA0085148E;
+			remoteInfo = prato;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F069AF21D33DFDA0085148E /* prato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = prato.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F069AF51D33DFDA0085148E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2F069AF71D33DFDA0085148E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2F069AFA1D33DFDA0085148E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F069AFC1D33DFDA0085148E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F069AFF1D33DFDA0085148E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F069B011D33DFDA0085148E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F069B061D33DFDA0085148E /* pratoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pratoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F069B0A1D33DFDA0085148E /* pratoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pratoTests.swift; sourceTree = "<group>"; };
+		2F069B0C1D33DFDA0085148E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F069B111D33DFDA0085148E /* pratoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pratoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F069B151D33DFDA0085148E /* pratoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pratoUITests.swift; sourceTree = "<group>"; };
+		2F069B171D33DFDA0085148E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F069AEF1D33DFDA0085148E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F069B031D33DFDA0085148E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F069B0E1D33DFDA0085148E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F069AE91D33DFDA0085148E = {
+			isa = PBXGroup;
+			children = (
+				2F069AF41D33DFDA0085148E /* prato */,
+				2F069B091D33DFDA0085148E /* pratoTests */,
+				2F069B141D33DFDA0085148E /* pratoUITests */,
+				2F069AF31D33DFDA0085148E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F069AF31D33DFDA0085148E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F069AF21D33DFDA0085148E /* prato.app */,
+				2F069B061D33DFDA0085148E /* pratoTests.xctest */,
+				2F069B111D33DFDA0085148E /* pratoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F069AF41D33DFDA0085148E /* prato */ = {
+			isa = PBXGroup;
+			children = (
+				2F069AF51D33DFDA0085148E /* AppDelegate.swift */,
+				2F069AF71D33DFDA0085148E /* ViewController.swift */,
+				2F069AF91D33DFDA0085148E /* Main.storyboard */,
+				2F069AFC1D33DFDA0085148E /* Assets.xcassets */,
+				2F069AFE1D33DFDA0085148E /* LaunchScreen.storyboard */,
+				2F069B011D33DFDA0085148E /* Info.plist */,
+			);
+			path = prato;
+			sourceTree = "<group>";
+		};
+		2F069B091D33DFDA0085148E /* pratoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F069B0A1D33DFDA0085148E /* pratoTests.swift */,
+				2F069B0C1D33DFDA0085148E /* Info.plist */,
+			);
+			path = pratoTests;
+			sourceTree = "<group>";
+		};
+		2F069B141D33DFDA0085148E /* pratoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F069B151D33DFDA0085148E /* pratoUITests.swift */,
+				2F069B171D33DFDA0085148E /* Info.plist */,
+			);
+			path = pratoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F069AF11D33DFDA0085148E /* prato */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F069B1A1D33DFDA0085148E /* Build configuration list for PBXNativeTarget "prato" */;
+			buildPhases = (
+				2F069AEE1D33DFDA0085148E /* Sources */,
+				2F069AEF1D33DFDA0085148E /* Frameworks */,
+				2F069AF01D33DFDA0085148E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = prato;
+			productName = prato;
+			productReference = 2F069AF21D33DFDA0085148E /* prato.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F069B051D33DFDA0085148E /* pratoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F069B1D1D33DFDA0085148E /* Build configuration list for PBXNativeTarget "pratoTests" */;
+			buildPhases = (
+				2F069B021D33DFDA0085148E /* Sources */,
+				2F069B031D33DFDA0085148E /* Frameworks */,
+				2F069B041D33DFDA0085148E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F069B081D33DFDA0085148E /* PBXTargetDependency */,
+			);
+			name = pratoTests;
+			productName = pratoTests;
+			productReference = 2F069B061D33DFDA0085148E /* pratoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F069B101D33DFDA0085148E /* pratoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F069B201D33DFDA0085148E /* Build configuration list for PBXNativeTarget "pratoUITests" */;
+			buildPhases = (
+				2F069B0D1D33DFDA0085148E /* Sources */,
+				2F069B0E1D33DFDA0085148E /* Frameworks */,
+				2F069B0F1D33DFDA0085148E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F069B131D33DFDA0085148E /* PBXTargetDependency */,
+			);
+			name = pratoUITests;
+			productName = pratoUITests;
+			productReference = 2F069B111D33DFDA0085148E /* pratoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F069AEA1D33DFDA0085148E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ZEYU_Michael_Li;
+				TargetAttributes = {
+					2F069AF11D33DFDA0085148E = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = A5EHC75VV4;
+					};
+					2F069B051D33DFDA0085148E = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = A5EHC75VV4;
+						TestTargetID = 2F069AF11D33DFDA0085148E;
+					};
+					2F069B101D33DFDA0085148E = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = A5EHC75VV4;
+						TestTargetID = 2F069AF11D33DFDA0085148E;
+					};
+				};
+			};
+			buildConfigurationList = 2F069AED1D33DFDA0085148E /* Build configuration list for PBXProject "prato" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F069AE91D33DFDA0085148E;
+			productRefGroup = 2F069AF31D33DFDA0085148E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F069AF11D33DFDA0085148E /* prato */,
+				2F069B051D33DFDA0085148E /* pratoTests */,
+				2F069B101D33DFDA0085148E /* pratoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F069AF01D33DFDA0085148E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F069B001D33DFDA0085148E /* LaunchScreen.storyboard in Resources */,
+				2F069AFD1D33DFDA0085148E /* Assets.xcassets in Resources */,
+				2F069AFB1D33DFDA0085148E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F069B041D33DFDA0085148E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F069B0F1D33DFDA0085148E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F069AEE1D33DFDA0085148E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F069AF81D33DFDA0085148E /* ViewController.swift in Sources */,
+				2F069AF61D33DFDA0085148E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F069B021D33DFDA0085148E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F069B0B1D33DFDA0085148E /* pratoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F069B0D1D33DFDA0085148E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F069B161D33DFDA0085148E /* pratoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F069B081D33DFDA0085148E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F069AF11D33DFDA0085148E /* prato */;
+			targetProxy = 2F069B071D33DFDA0085148E /* PBXContainerItemProxy */;
+		};
+		2F069B131D33DFDA0085148E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F069AF11D33DFDA0085148E /* prato */;
+			targetProxy = 2F069B121D33DFDA0085148E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F069AF91D33DFDA0085148E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F069AFA1D33DFDA0085148E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F069AFE1D33DFDA0085148E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F069AFF1D33DFDA0085148E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F069B181D33DFDA0085148E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2F069B191D33DFDA0085148E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F069B1B1D33DFDA0085148E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = prato/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Monash-University.prato";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2F069B1C1D33DFDA0085148E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = prato/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Monash-University.prato";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2F069B1E1D33DFDA0085148E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = pratoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Monash-University.pratoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/prato.app/prato";
+			};
+			name = Debug;
+		};
+		2F069B1F1D33DFDA0085148E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = pratoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Monash-University.pratoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/prato.app/prato";
+			};
+			name = Release;
+		};
+		2F069B211D33DFDA0085148E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = pratoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Monash-University.pratoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = prato;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2F069B221D33DFDA0085148E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = pratoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Monash-University.pratoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = prato;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F069AED1D33DFDA0085148E /* Build configuration list for PBXProject "prato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F069B181D33DFDA0085148E /* Debug */,
+				2F069B191D33DFDA0085148E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F069B1A1D33DFDA0085148E /* Build configuration list for PBXNativeTarget "prato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F069B1B1D33DFDA0085148E /* Debug */,
+				2F069B1C1D33DFDA0085148E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2F069B1D1D33DFDA0085148E /* Build configuration list for PBXNativeTarget "pratoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F069B1E1D33DFDA0085148E /* Debug */,
+				2F069B1F1D33DFDA0085148E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2F069B201D33DFDA0085148E /* Build configuration list for PBXNativeTarget "pratoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F069B211D33DFDA0085148E /* Debug */,
+				2F069B221D33DFDA0085148E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F069AEA1D33DFDA0085148E /* Project object */;
+}
