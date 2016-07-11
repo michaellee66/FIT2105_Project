@@ -14,6 +14,7 @@
 		2F069B001D33DFDA0085148E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F069AFE1D33DFDA0085148E /* LaunchScreen.storyboard */; };
 		2F069B0B1D33DFDA0085148E /* pratoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F069B0A1D33DFDA0085148E /* pratoTests.swift */; };
 		2F069B161D33DFDA0085148E /* pratoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F069B151D33DFDA0085148E /* pratoUITests.swift */; };
+		2F069B241D33E8770085148E /* google_map.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F069B231D33E8770085148E /* google_map.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		2F069B111D33DFDA0085148E /* pratoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pratoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F069B151D33DFDA0085148E /* pratoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pratoUITests.swift; sourceTree = "<group>"; };
 		2F069B171D33DFDA0085148E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F069B231D33E8770085148E /* google_map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = google_map.png; path = ../../Downloads/google_map.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				2F069B091D33DFDA0085148E /* pratoTests */,
 				2F069B141D33DFDA0085148E /* pratoUITests */,
 				2F069AF31D33DFDA0085148E /* Products */,
+				2F069B251D33E8DF0085148E /* images */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +126,14 @@
 				2F069B171D33DFDA0085148E /* Info.plist */,
 			);
 			path = pratoUITests;
+			sourceTree = "<group>";
+		};
+		2F069B251D33E8DF0085148E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				2F069B231D33E8770085148E /* google_map.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +246,7 @@
 				2F069B001D33DFDA0085148E /* LaunchScreen.storyboard in Resources */,
 				2F069AFD1D33DFDA0085148E /* Assets.xcassets in Resources */,
 				2F069AFB1D33DFDA0085148E /* Main.storyboard in Resources */,
+				2F069B241D33E8770085148E /* google_map.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
