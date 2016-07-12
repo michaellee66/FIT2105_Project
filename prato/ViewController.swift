@@ -10,6 +10,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBAction func DisplayInfo1(sender: AnyObject) {
+        
+    }
+    @IBAction func DisplayInfo2(sender: AnyObject) {
+        
+    }
+    @IBAction func DIsplayInfo3(sender: AnyObject) {
+        
+    }
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
