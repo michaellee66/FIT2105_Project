@@ -30,13 +30,6 @@
                                     <segue destination="mtO-kz-iLE" kind="show" id="pl6-pj-Jv2"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vhq-yj-v1Z">
-                                <rect key="frame" x="322" y="232" width="30" height="30"/>
-                                <state key="normal" title="play"/>
-                                <connections>
-                                    <segue destination="OFc-dW-Dfv" kind="show" id="Kns-qS-fAW"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uB8-nN-aF1">
                                 <rect key="frame" x="487" y="221" width="30" height="30"/>
                                 <state key="normal" title="play"/>
@@ -45,22 +38,39 @@
                                     <segue destination="cli-6m-dKP" kind="show" id="Fpj-ac-NgQ"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vhq-yj-v1Z">
+                                <rect key="frame" x="322" y="232" width="30" height="30"/>
+                                <state key="normal" title="play"/>
+                                <connections>
+                                    <segue destination="OFc-dW-Dfv" kind="show" id="Kns-qS-fAW"/>
+                                </connections>
+                            </button>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="5N6-WJ-MTl">
+                                <rect key="frame" x="53" y="64" width="547" height="629"/>
+                            </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="DCJ-tO-4s2" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="3DF-xf-TZP"/>
-                            <constraint firstItem="DCJ-tO-4s2" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="5JS-vL-R8I"/>
-                            <constraint firstItem="Vhq-yj-v1Z" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="168" id="FY1-Wh-kix"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="uB8-nN-aF1" secondAttribute="trailing" constant="63" id="Qev-xx-adH"/>
-                            <constraint firstAttribute="trailing" secondItem="DCJ-tO-4s2" secondAttribute="trailing" id="TZQ-08-ZCp"/>
-                            <constraint firstItem="uB8-nN-aF1" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="157" id="YYx-Tg-E1y"/>
-                            <constraint firstItem="DCJ-tO-4s2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="33" id="bSp-h5-Dvq"/>
-                            <constraint firstAttribute="trailing" secondItem="P48-XC-iOX" secondAttribute="trailing" constant="209" id="n9V-ue-z29"/>
-                            <constraint firstItem="P48-XC-iOX" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="108" id="u68-J9-S0Y"/>
-                            <constraint firstAttribute="trailing" secondItem="Vhq-yj-v1Z" secondAttribute="trailing" constant="248" id="xC8-Wp-stq"/>
+                            <constraint firstItem="uB8-nN-aF1" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="157" id="1Eh-y5-79A"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="uB8-nN-aF1" secondAttribute="trailing" constant="63" id="71K-9F-GsC"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="5N6-WJ-MTl" secondAttribute="bottom" constant="-93" id="Re8-wG-vV6"/>
+                            <constraint firstAttribute="trailing" secondItem="DCJ-tO-4s2" secondAttribute="trailing" id="XRT-Lg-fXM"/>
+                            <constraint firstItem="5N6-WJ-MTl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="33" id="Zki-iE-vC7"/>
+                            <constraint firstAttribute="trailing" secondItem="Vhq-yj-v1Z" secondAttribute="trailing" constant="248" id="bhr-I7-3jV"/>
+                            <constraint firstItem="5N6-WJ-MTl" firstAttribute="top" secondItem="DCJ-tO-4s2" secondAttribute="top" id="bmC-lv-dhu"/>
+                            <constraint firstItem="5N6-WJ-MTl" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="cJm-m3-fbU"/>
+                            <constraint firstItem="P48-XC-iOX" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="108" id="dfk-z9-i2I"/>
+                            <constraint firstAttribute="trailing" secondItem="P48-XC-iOX" secondAttribute="trailing" constant="209" id="gDd-ll-COe"/>
+                            <constraint firstItem="Vhq-yj-v1Z" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="168" id="mcb-vH-bFv"/>
+                            <constraint firstItem="DCJ-tO-4s2" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="nW8-oN-vhY"/>
+                            <constraint firstItem="5N6-WJ-MTl" firstAttribute="leading" secondItem="DCJ-tO-4s2" secondAttribute="leading" id="wvh-aj-rgN"/>
+                            <constraint firstItem="5N6-WJ-MTl" firstAttribute="trailing" secondItem="DCJ-tO-4s2" secondAttribute="trailing" id="yoJ-rE-vnX"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Map" id="Fb8-aW-zeT"/>
+                    <connections>
+                        <outlet property="Mapview" destination="5N6-WJ-MTl" id="GGy-xg-R9I"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
