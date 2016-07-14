@@ -1,13 +1,15 @@
 //
-//  InfoPageViewController.swift
+//  ViewController_1.swift
 //  prato
 //
-//  Created by ZEYU_Michael_Li on 12/07/2016.
+//  Created by ZEYU_Michael_Li on 13/07/2016.
 //  Copyright © 2016 ZEYU_Michael_Li. All rights reserved.
 //
 
 import UIKit
-class InfoPageViewController: UIViewController {
+
+class ViewController_1: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
 

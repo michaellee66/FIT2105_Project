@@ -10,71 +10,90 @@ import UIKit
 import MapKit
 import CoreLocation
 
-class ViewController: UIViewController,MKMapViewDelegate,CLLocationManagerDelegate {
+class ViewController: UIViewController , MKMapViewDelegate , CLLocationManagerDelegate {
 
-    @IBAction func DisplayInfo1(sender: AnyObject) {
-        
-    }
-    @IBAction func DisplayInfo2(sender: AnyObject) {
-        
-    }
-    @IBAction func DIsplayInfo3(sender: AnyObject) {
-        
-        
-    }
     
     
     @IBOutlet weak var Mapview: MKMapView!
+
     let locationManager=CLLocationManager()
+    
+    var manager: CLLocationManager?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // set initial location in Piazza della Signoria
-        self.locationManager.delegate=self
-        self.locationManager.desiredAccuracy=kCLLocationAccuracyBest
-        self.locationManager.requestWhenInUseAuthorization()
-        self.locationManager.startUpdatingLocation()
-        self.Mapview.showsUserLocation=true
-        let initialLocation = CLLocation(latitude: 43.769596, longitude:  11.255637)
-        centerMapOnLocation(initialLocation)
-        // Do any additional setup after loading the view, typically from a nib.
-        //Mapview.delegate = self
-        Mapview.camera.pitch = 0.0
-        Mapview.camera.altitude = 300.0
+        manager = CLLocationManager()
+        manager?.delegate = self;
+        manager?.desiredAccuracy = kCLLocationAccuracyBest
+        
+        manager?.requestWhenInUseAuthorization()
+        manager?.startUpdatingLocation()
+        
+        manager?.requestAlwaysAuthorization()
+        
+        let currRegion = CLCircularRegion(center: CLLocationCoordinate2D(latitude: 43.871544, longitude: 11.114871), radius: 20, identifier: "Home")
+        manager?.startMonitoringForRegion(currRegion)
+        
+        //let initialLocation = CLLocation(latitude: 43.769596, longitude:  11.255637)
+        //let initialLocation = CLLocation(latitude: 43.769596, longitude:  11.255637)
+        //centerMapOnLocation(initialLocation)
+        //Mapview.camera.pitch = 0.0
+        //Mapview.camera.altitude = 300.0
         //Mapview.mapType = .Satellite
-        Mapview.mapType = .Satellite
         
     }
-    let regionRadius: CLLocationDistance = 50
-    func centerMapOnLocation(location: CLLocation) {
-        
-        
-        let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate,
-            regionRadius * 2.0, regionRadius * 2.0)
-        
-        Mapview.setRegion(coordinateRegion, animated: true)
-            }
-    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation])
-    {
-        let location = locations.last
-        
-        let center = CLLocationCoordinate2D(latitude: location!.coordinate.latitude, longitude: location!.coordinate.longitude)
-        
-        let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 0.0015, longitudeDelta: 0.0015))
-        
-        self.Mapview.setRegion(region, animated: true)
-        
-        self.locationManager.stopUpdatingLocation()
+    func locationManager(manager: CLLocationManager!, didUpdateLocations locations: [CLLocation]) {
+        manager.stopUpdatingLocation()
+        let location = locations[0] as CLLocation
+        let geoCoder = CLGeocoder()
+        geoCoder.reverseGeocodeLocation(location, completionHandler: { (data, error) -> Void in
+            let placeMarks = data! as [CLPlacemark]
+            let loc: CLPlacemark = placeMarks[0]
+            
+            var initialLocation = CLLocation(latitude: 43.769600, longitude: 11.256093)
+            initialLocation = CLLocation(latitude: 43.871544, longitude: 11.114871)
+            
+            
+            let coordinateRegion = MKCoordinateRegionMakeWithDistance(initialLocation.coordinate,150, 150)
+            self.Mapview.setRegion(coordinateRegion, animated: true)
+            
+            
+            
+            //self.Mapview.centerCoordinate = location.coordinate
+            //let addr = loc.locality
+            //let reg = MKCoordinateRegionMakeWithDistance(location.coordinate, 1500, 1500)
+            //self.Mapview.setRegion(reg, animated: true)
+            self.Mapview.showsUserLocation = true
+            
+        })
     }
-    
     func locationManager(manager: CLLocationManager, didFailWithError error: NSError)
     {
         print("Errors: " + error.localizedDescription)
     }
+    func locationManager(manager: CLLocationManager, didEnterRegion region: CLRegion) {
+        NSLog("Entering region")
+        print("1111")
+        self.performSegueWithIdentifier("showAudio", sender: self)
+        
+        
+    }
+    
+    
+    func locationManager(manager: CLLocationManager, didExitRegion region: CLRegion) {
+        NSLog("Exit region")
+        print("232131231")
+    }
+    override func prepareForSegue(segue: UIStoryboardSegue!, sender: AnyObject!) {
+        if segue.identifier == "push" {
+            
+        }
+    }
+    
 }
+
 
