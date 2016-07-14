@@ -14,9 +14,7 @@
 		2F069B001D33DFDA0085148E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F069AFE1D33DFDA0085148E /* LaunchScreen.storyboard */; };
 		2F069B0B1D33DFDA0085148E /* pratoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F069B0A1D33DFDA0085148E /* pratoTests.swift */; };
 		2F069B161D33DFDA0085148E /* pratoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F069B151D33DFDA0085148E /* pratoUITests.swift */; };
-		2F069B241D33E8770085148E /* google_map.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F069B231D33E8770085148E /* google_map.png */; };
-		2F10FE541D37A52D00F27720 /* prato in Resources */ = {isa = PBXBuildFile; fileRef = 2F10FE531D37A52D00F27720 /* prato */; };
-		2F33BAC31D36AB1000FBE603 /* App_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F33BAC21D36AB1000FBE603 /* App_logo.png */; };
+		2F1DD90E1D37A9760048442D /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 2F1DD90D1D37A9760048442D /* Images */; };
 		2F51B2B41D353C6B00DF7079 /* InfoPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F51B2B31D353C6B00DF7079 /* InfoPageViewController.swift */; };
 		2FC4A2DB1D366755006BB688 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FC4A2DA1D366755006BB688 /* MapKit.framework */; };
 		2FC4A2DD1D366763006BB688 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FC4A2DC1D366763006BB688 /* CoreLocation.framework */; };
@@ -53,10 +51,7 @@
 		2F069B111D33DFDA0085148E /* pratoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pratoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F069B151D33DFDA0085148E /* pratoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pratoUITests.swift; sourceTree = "<group>"; };
 		2F069B171D33DFDA0085148E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2F069B231D33E8770085148E /* google_map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = google_map.png; path = ../../Downloads/google_map.png; sourceTree = "<group>"; };
-		2F10FE531D37A52D00F27720 /* prato */ = {isa = PBXFileReference; lastKnownFileType = folder; name = prato; sourceTree = "<group>"; };
-		2F33BAC21D36AB1000FBE603 /* App_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = App_logo.png; path = ../../Downloads/App_logo.png; sourceTree = "<group>"; };
-		2F33BAC41D36AE6100FBE603 /* medusa_awakening.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = medusa_awakening.mp4; path = ../../Downloads/Medusa/medusa_awakening.mp4; sourceTree = "<group>"; };
+		2F1DD90D1D37A9760048442D /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Images; path = ../../Desktop/Images; sourceTree = "<group>"; };
 		2F51B2B31D353C6B00DF7079 /* InfoPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoPageViewController.swift; sourceTree = "<group>"; };
 		2FC4A2DA1D366755006BB688 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		2FC4A2DC1D366763006BB688 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -92,14 +87,13 @@
 		2F069AE91D33DFDA0085148E = {
 			isa = PBXGroup;
 			children = (
-				2F10FE531D37A52D00F27720 /* prato */,
+				2F1DD90D1D37A9760048442D /* Images */,
 				2FC4A2DC1D366763006BB688 /* CoreLocation.framework */,
 				2FC4A2DA1D366755006BB688 /* MapKit.framework */,
 				2F069AF41D33DFDA0085148E /* prato */,
 				2F069B091D33DFDA0085148E /* pratoTests */,
 				2F069B141D33DFDA0085148E /* pratoUITests */,
 				2F069AF31D33DFDA0085148E /* Products */,
-				2F069B251D33E8DF0085148E /* images */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,16 +137,6 @@
 				2F069B171D33DFDA0085148E /* Info.plist */,
 			);
 			path = pratoUITests;
-			sourceTree = "<group>";
-		};
-		2F069B251D33E8DF0085148E /* images */ = {
-			isa = PBXGroup;
-			children = (
-				2F069B231D33E8770085148E /* google_map.png */,
-				2F33BAC21D36AB1000FBE603 /* App_logo.png */,
-				2F33BAC41D36AE6100FBE603 /* medusa_awakening.mp4 */,
-			);
-			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,12 +251,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F1DD90E1D37A9760048442D /* Images in Resources */,
 				2F069B001D33DFDA0085148E /* LaunchScreen.storyboard in Resources */,
-				2F33BAC31D36AB1000FBE603 /* App_logo.png in Resources */,
 				2F069AFD1D33DFDA0085148E /* Assets.xcassets in Resources */,
-				2F10FE541D37A52D00F27720 /* prato in Resources */,
 				2F069AFB1D33DFDA0085148E /* Main.storyboard in Resources */,
-				2F069B241D33E8770085148E /* google_map.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
